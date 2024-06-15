@@ -1,0 +1,151 @@
+/* Basic reset for consistent styling across browsers */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Centering the About Me section */
+#about {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px; /* Adjusted padding for better spacing */
+}
+
+/* Centering the Skills section */
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    flex-wrap: wrap; /* Ensures items wrap on smaller screens */
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Centering the Projects section */
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+}
+
+#projects .project {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Ensures it doesn't get too wide */
+}
+
+/* Centering the Contact form */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    padding: 50px 20px; /* Adjusted padding for better spacing */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Ensures the form doesn't get too wide */
+    margin: 0 auto; /* Centers the form horizontally */
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea, form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    #skills ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+/* Centering the Contact form */
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+    padding: 50px 20px; /* Adjusted padding for better spacing */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Ensures the form doesn't get too wide */
+    margin: 0 auto; /* Centers the form horizontally */
+}
+
+/* Centering the Projects section */
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers items horizontally */
+}
+
+#projects .project {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px; /* Ensures it doesn't get too wide */
+}
